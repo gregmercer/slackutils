@@ -24,10 +24,7 @@ Go to here to setup a new Slack app for your workspace
 https://api.slack.com/apps
 ```
 
-Go to here to activate incoming webhooks
-```
-https://api.slack.com/apps/ACATTJ31D/incoming-webhooks?
-```
+Go to the 'Incoming Webhooks' tab to 'Activate Incoming Webhooks'
 
 Go to the 'Oath & Permissions' tab to set these scopes
 ```
