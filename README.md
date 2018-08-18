@@ -3,7 +3,7 @@ Command-line Nodejs Slack Utils using commander, inquirer, and colors
 
 ```
 > git clone git@github.com:gregmercer/slackutils.git
-> slackutils
+> cd slackutils
 > npm init -y
 > npm install --save commander inquirer colors axios
 ```
