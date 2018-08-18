@@ -19,6 +19,24 @@ Go to here to create a token for Slack API calls
 https://api.slack.com/custom-integrations/legacy-tokens
 ```
 
+Go to here to setup a new Slack app for your workspace
+```
+https://api.slack.com/apps
+```
+
+Go to here to activate incoming webhooks
+```
+https://api.slack.com/apps/ACATTJ31D/incoming-webhooks?
+```
+
+Go to the 'Oath & Permissions' tab to set these scopes
+```
+channels:write
+incoming-webhook
+```
+
+## Run the App
+
 Set the CHANNELS_TOKEN as an environment variable
 ```
 > export CHANNELS_TOKEN=<your slack token>
@@ -26,6 +44,6 @@ Set the CHANNELS_TOKEN as an environment variable
 
 Run the Slack Utilities
 ```
-slackutils menu
+> slackutils menu
 ```
 
