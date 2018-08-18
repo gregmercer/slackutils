@@ -22,6 +22,7 @@ https://api.slack.com/custom-integrations/legacy-tokens
 Set the CHANNELS_TOKEN as an environment variable
 ```
 > export CHANNELS_TOKEN=<your slack token>
+```
 
 Run the Slack Utilities
 ```
