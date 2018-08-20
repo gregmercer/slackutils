@@ -27,6 +27,10 @@ program
           channelService.deleteChannel(answers.channelName);
         });
       }
+      else if (answers.selectedAction == 'Delete Channels') {
+        var data = channelData.testClubs;
+        channelService.deleteChannels(data);
+      }
     })
 
   });
